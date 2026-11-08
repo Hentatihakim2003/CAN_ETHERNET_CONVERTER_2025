@@ -1,0 +1,9 @@
+{
+  "conversion_direction": "Ethernet_to_CAN",
+  "ethernet_interface": "eth0",
+  "can_interface": "can0",
+  "filter": {
+    "protocol": "TCP",
+    "port": 12345
+  }
+}

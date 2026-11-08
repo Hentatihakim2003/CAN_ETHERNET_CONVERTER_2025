@@ -1,0 +1,21 @@
+{
+    "services": [
+        {
+            "service_name": "ControlLeds",
+            "service_id": 4660,
+            "instance_id": 22136,
+            "port": 30509,
+            "communication_protocol": "SOME/IP",
+            "service_version": "1.0",
+            "events": [],
+            "event_groups": [
+                {
+                    "group_name": "ButtonEvents",
+                    "event_group_id": 8017,
+                    "event_ids": [],
+                    "event_group_description": "Group for LED status change events"
+                }
+            ]
+        }
+    ]
+}

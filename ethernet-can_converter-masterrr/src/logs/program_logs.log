@@ -1,0 +1,20 @@
+2025-05-12 11:39:29,058 [DEBUG] - can config: {'channel': 'can0', 'interface': 'socketcan'}
+2025-05-12 11:39:29,077 [INFO] - Created a socket
+2025-05-12 11:39:29,079 [DEBUG] - Binding socket to channel=can0
+2025-05-12 11:39:29,080 [DEBUG] - Bound socket.
+2025-05-12 11:39:29,098 [INFO] - Démarrage du sniffing Ethernet sur eth0
+2025-05-12 11:39:34,344 [DEBUG] - We've been asked to write a message to the bus
+2025-05-12 11:39:34,346 [DEBUG] - sending: Timestamp:        0.000000        ID: 0001    S Rx                DL:  1    01
+2025-05-12 11:39:34,351 [INFO] - Mise à jour : event_id=1, OFF → ON
+2025-05-12 11:39:34,357 [INFO] - [1] Envoyé en CAN: ID=0x1, DLC=1, Data=01
+2025-05-12 11:39:36,481 [DEBUG] - We've been asked to write a message to the bus
+2025-05-12 11:39:36,482 [DEBUG] - sending: Timestamp:        0.000000        ID: 0001    S Rx                DL:  1    01
+2025-05-12 11:39:36,488 [INFO] - Aucun changement: event_id=1, status=ON (identique)
+2025-05-12 11:39:36,489 [INFO] - [1] Envoyé en CAN: ID=0x1, DLC=1, Data=01
+2025-05-12 11:40:09,700 [DEBUG] - We've been asked to write a message to the bus
+2025-05-12 11:40:09,702 [DEBUG] - sending: Timestamp:        0.000000        ID: 0001    S Rx                DL:  1    03
+2025-05-12 11:40:09,704 [WARNING] - Valeur 3 non valide pour buttonWiperIgnition. Valeurs autorisées: ['OFF', 'ON']
+2025-05-12 11:40:09,706 [INFO] - [1] Envoyé en CAN: ID=0x1, DLC=1, Data=03
+2025-05-12 11:53:09,861 [INFO] - Arrêt du programme...
+2025-05-12 11:53:09,874 [INFO] - Fermeture des sockets et sniffers...
+2025-05-12 11:53:09,903 [INFO] - Programme arrêté proprement.

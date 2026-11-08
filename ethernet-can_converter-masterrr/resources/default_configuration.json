@@ -1,0 +1,13 @@
+{
+    "can_interface": "can0",
+    "eth_interface": "eth0",
+    "broadcast_mac": "ff:ff:ff:ff:ff:ff",
+    "raspberry_mac": "b8:27:eb:d7:2d:19",
+    "adr_ip_raspberry": "10.20.0.39",
+    "port": 5005,
+    "raspberry_mac_bytes": "B827EBD72D19",
+    "eth_type_can": "88B5",
+    "pc_mac": "e8:9c:25:92:16:a8",
+    "pc_mac_bytes": "E89C259216A8",
+    "adr_ip_pc": "10.20.0.52"
+}
